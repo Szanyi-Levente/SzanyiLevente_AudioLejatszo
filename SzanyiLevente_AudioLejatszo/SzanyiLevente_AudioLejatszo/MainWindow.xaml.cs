@@ -45,7 +45,7 @@ namespace SzanyiLevente_AudioLejatszo
             {
 
                 FileName = filedialog.FileName;
-                Box.Text = filedialog.SafeFileName;
+                lista.Items.Add(FileName);
                 mediaPlayer.Open(new Uri(FileName));
             }
         }
@@ -105,6 +105,21 @@ namespace SzanyiLevente_AudioLejatszo
         private void Box_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void Previous_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Next_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            lista.Items.Clear();
         }
     }
 }

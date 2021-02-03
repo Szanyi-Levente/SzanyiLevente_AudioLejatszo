@@ -98,9 +98,6 @@
     <Resource Include="—Pngtree—vector high volume icon_4101436.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="wp2990737.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="play32323.png" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +108,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="add33242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="previous-track-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pexels-karolina-grabowska-4194857.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="next-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
